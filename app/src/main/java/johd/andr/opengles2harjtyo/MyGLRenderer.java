@@ -69,6 +69,9 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     }
 
+    public Triangle getTriangle(){
+        return mTriangle;
+    }
     public volatile float mAngle;
 
     public float getAngle() {
